@@ -26,9 +26,10 @@ const Links: NextPage = () => {
         <h1 className="mt-6 font-RobotoCondensed text-5xl font-bold">
           Jorge Marcos Carrero
         </h1>
-        <h2 className="mt-3 font-mono font-semibold lowercase text-primary">
-          Desarrollador FullStack | Desarrollador React / NextJs | Desarrollador
-          NodeJS | Docker & Kubernetes
+        <h2 className="mt-3 font-mono font-semibold text-primary">
+          Estudiante de Ing. en Informática y Sistemas de Información |
+          FullStack Developer | Experto en Ciberseguridad por Deloitte | Game
+          developer hobby
         </h2>
         <div className="mt-5">
           <AllLinksTag />
