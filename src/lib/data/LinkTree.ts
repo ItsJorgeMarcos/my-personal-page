@@ -4,12 +4,12 @@ const linkTree = [
     href: '/',
   },
   {
-    name: 'Resume',
+    name: 'Mi CV',
     href: '/cv_jorge_marcos.pdf',
   },
   {
     name: 'Github',
-    href: 'https://github.com',
+    href: 'https://github.com/ItsJorgeMarcos',
   },
 ];
 export default linkTree;
