@@ -5,7 +5,7 @@ import styles from '../Home.module.css';
 const DownloadCV: FC = () => {
   return (
     <a
-      href="/portfolio.pdf"
+      href="/CV_Jorge_Marcos.pdf"
       target={'_blank'}
       className="magic-puffIn"
       rel="noreferrer"
