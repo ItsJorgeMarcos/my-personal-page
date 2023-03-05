@@ -8,7 +8,7 @@ const InfoSection: FC = () => {
         {' '}
         Hola
         <span className="not-italic"> 👋 </span>
-        Yo soy <span className="text-primary"> Jorge</span>,{' '}
+        Soy <span className="text-primary"> Jorge</span>,{' '}
       </Heading3>
       <p className="relative before:absolute before:-left-8 before:font-sans before:text-lg before:font-normal before:not-italic before:text-base-200 before:content-['<p>']">
         <br /> Empecé a desarrollar aplicaciones cuando estaba en la ESO, por lo

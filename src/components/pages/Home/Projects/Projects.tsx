@@ -68,12 +68,12 @@ const Projects: FC = () => {
         </div>
         <div className="relative block w-full py-7 pr-3 pl-10 before:absolute before:left-0 before:-translate-y-full before:text-base before:font-normal before:not-italic before:text-base-200 before:content-['<h3>'] after:absolute after:bottom-0 after:left-0 after:text-base after:font-normal after:not-italic after:text-base-200 after:content-['</h3>'] md:text-4xl md:before:text-lg md:after:text-lg lg:pr-0">
           <span className="block text-center font-RobotoCondensed text-5xl font-bold tracking-wider text-primary lg:text-left lg:text-7xl">
-            Portfolio Personal
+            JMC Portfolio
           </span>
           <p className="mt-5 text-xl leading-relaxed lg:text-2xl">
-            Filmpire is movie app where you can search for movie and add to
-            watchlist and Favorite's. You get the recommendation for the similar
-            movies and you have option to get movies by genre with the TMDB API.
+            JMC portfolio es un proyecto personal que estoy desarrollando para
+            mostrar mis proyectos y habilidades. Este proyecto esta desarrollado
+            con NextJS, TailwindCSS, React y Typescript.
           </p>
           <span className="mt-5 mb-10 flex flex-wrap gap-4 text-sm text-primary lg:text-xl">
             {['nextJS', 'Tailwind', 'react', 'typescript'].map((tool) => (
