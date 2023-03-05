@@ -11,7 +11,7 @@ const AppIcons = [
   { path: '/assets/icons/expressjs.svg', name: 'ExpressJS', key: 10 },
   { path: '/assets/icons/mongodb.svg', name: 'MongoDB', key: 11 },
   { path: '/assets/icons/mysql.svg', name: 'MySQL', key: 12 },
-  { path: '/assets/icons/aws.svg', name: 'Amazon Web Services', key: 13 },
+  { path: '/assets/icons/aws.svg', name: 'AWS', key: 13 },
   { path: '/assets/icons/docker.svg', name: 'Docker', key: 14 },
   { path: '/assets/icons/kubernetes.svg', name: 'Kubernetes', key: 15 },
   { path: '/assets/icons/vercel.svg', name: 'vercel', key: 16 },
