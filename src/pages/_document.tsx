@@ -19,6 +19,16 @@ class MyDocument extends Document {
 
           <meta name="robots" content="index, follow" />
 
+          {/* TODO: Open Graph */}
+
+          {/* Fonts */}
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <Script
             strategy="afterInteractive"
