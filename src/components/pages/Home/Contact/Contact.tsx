@@ -16,12 +16,12 @@ const Contact: FC = () => {
     >
       <div className="flex items-center justify-center">
         <Heading2>
-          {isVisible ? <AnimatedText text="Contacta Conmigo" /> : ''}
+          {isVisible ? <AnimatedText text="Contacto." /> : ''}
         </Heading2>
       </div>
       <SocialWrapper />
       <div className="flex items-center justify-center gap-2 text-xl">
-        <span>Gracias por llegar hasta aqui</span>
+        <span>😄 Gracias por visitar este proyecto!</span>
       </div>
       <Footer />
     </div>

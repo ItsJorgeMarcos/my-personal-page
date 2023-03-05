@@ -32,8 +32,8 @@ const SocialWrapper: FC = () => {
         }}
       />
       <SocialButton
-        text="Twitter"
-        href="https://twitter.com"
+        text="Perfil"
+        href="/links"
         className={{
           x: 'md:-translate-x-20',
           y: 'md:translate-y-20',

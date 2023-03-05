@@ -17,7 +17,7 @@ const Projects: FC = () => {
   const [currentproject, setCurrentproject] = useState(1);
   return (
     <section
-      id="myportfolio"
+      id="myproject"
       ref={containerRef}
       className={`container relative mx-auto mt-10 transition-transform duration-500 ease-linear lg:mt-52 ${
         isVisible ? 'translate-y-0' : 'translate-y-36 opacity-0'
@@ -25,7 +25,7 @@ const Projects: FC = () => {
     >
       <div className="flex items-center justify-center">
         <Heading2>
-          {isVisible ? <AnimatedText text="Mi Portfolio" /> : ''}
+          {isVisible ? <AnimatedText text="Mis Proyectos." /> : ''}
         </Heading2>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:py-16">
@@ -68,15 +68,16 @@ const Projects: FC = () => {
         </div>
         <div className="relative block w-full py-7 pr-3 pl-10 before:absolute before:left-0 before:-translate-y-full before:text-base before:font-normal before:not-italic before:text-base-200 before:content-['<h3>'] after:absolute after:bottom-0 after:left-0 after:text-base after:font-normal after:not-italic after:text-base-200 after:content-['</h3>'] md:text-4xl md:before:text-lg md:after:text-lg lg:pr-0">
           <span className="block text-center font-RobotoCondensed text-5xl font-bold tracking-wider text-primary lg:text-left lg:text-7xl">
-            JMC Portfolio
+            JMC Portfolio.
           </span>
           <p className="mt-5 text-xl leading-relaxed lg:text-2xl">
-            JMC portfolio es un proyecto personal que estoy desarrollando para
-            mostrar mis proyectos y habilidades. Este proyecto esta desarrollado
-            con NextJS, TailwindCSS, React y Typescript.
+            Es un proyecto personal que me permite mostrar algunas de mis
+            habilidades y conocimientos en el desarrollo web. Hacia tiempo que
+            esta idea de proyecto rondaba por mi cabeza, y estoy muy contento
+            del resultado final. 🥳
           </p>
           <span className="mt-5 mb-10 flex flex-wrap gap-4 text-sm text-primary lg:text-xl">
-            {['nextJS', 'Tailwind', 'react', 'typescript'].map((tool) => (
+            {['react', 'nextJS', 'typescript', 'Tailwind'].map((tool) => (
               <span
                 key={tool}
                 className="rounded-lg border border-primary p-2 px-3 font-bold capitalize hover:bg-primary hover:text-base-100"
@@ -87,7 +88,7 @@ const Projects: FC = () => {
           </span>
           <div className="flex flex-wrap gap-4 gap-x-2 text-sm lg:gap-0 lg:text-xl">
             <a
-              href="/"
+              href="https://jorgemarcoscarrero.com"
               target="_blank"
               rel="noopener noreferrer"
               className="group w-max rounded-xl border border-primary py-3 px-5 capitalize hover:bg-primary lg:rounded-none lg:rounded-l-xl"

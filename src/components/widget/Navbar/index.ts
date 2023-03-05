@@ -15,13 +15,13 @@ export const menuOptions = [
   },
   {
     id: 102,
-    text: '//02 <SobreMi/>',
+    text: '//02 <SobreMí/>',
     href: '#aboutme',
   },
   {
     id: 103,
-    text: '//03 <MiPortfolio/>',
-    href: '#myportfolio',
+    text: '//03 <MisProyectos/>',
+    href: '#myproject',
   },
 
   {

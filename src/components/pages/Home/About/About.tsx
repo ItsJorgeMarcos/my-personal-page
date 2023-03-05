@@ -16,7 +16,7 @@ const About: FC = () => {
     >
       <div className="flex items-center justify-center">
         <Heading2>
-          {isVisible ? <AnimatedText text="Algo sobre mí" /> : ''}
+          {isVisible ? <AnimatedText text="Algo sobre mí..." /> : ''}
         </Heading2>
       </div>
       <div className="mt-10 flex flex-col gap-x-10 gap-y-10 lg:flex-row xl:gap-x-16">

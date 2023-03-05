@@ -8,7 +8,7 @@ const LangaugeAndTools: FC = () => {
     <div className="flex-1 select-none p-3 ">
       <Heading3>
         {' '}
-        Lenguajes y<span className="text-primary"> Herramientas</span>{' '}
+        🔝 Lenguajes y<span className="text-primary"> Herramientas.</span>{' '}
       </Heading3>
 
       <div className="mt-5 p-3 pl-0">

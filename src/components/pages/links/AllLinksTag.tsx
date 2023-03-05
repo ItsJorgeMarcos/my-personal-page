@@ -5,7 +5,7 @@ const AllLinksTag: FC = () => {
   return (
     <p className={styles.tag}>
       <span className={styles.leftArr}></span>
-      Todos los links
+      Todos los links de interes
       <span className={styles.rightArr}></span>
     </p>
   );

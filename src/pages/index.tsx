@@ -18,7 +18,7 @@ const Landing: NextPage = () => {
   return (
     <div className="relative min-h-screen overflow-x-hidden font-mono">
       <Head>
-        <title>Portfolio - Jorge Marcos</title>
+        <title>JorgeMC 🧑🏻‍💻| FullStack </title>
       </Head>
       <Navbar />
       <Hero />
