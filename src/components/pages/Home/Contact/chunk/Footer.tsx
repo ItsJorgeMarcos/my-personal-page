@@ -3,7 +3,7 @@ import { FC } from 'react';
 const Footer: FC = () => {
   return (
     <p className="py-10 text-center">
-      Programado por{' '}
+      || Programado por{' '}
       <a
         href="https://www.linkedin.com/in/jorge-marcos-carrero/"
         target="_blank"

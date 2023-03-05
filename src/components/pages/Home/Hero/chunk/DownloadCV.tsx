@@ -20,7 +20,7 @@ const DownloadCV: FC = () => {
         <AnimatedText
           as="div"
           className="hoverBox 0 absolute z-50 flex h-full w-full cursor-pointer items-center justify-center transition-all duration-500 "
-          text={'<Download CV/>'}
+          text={'<Descargar CV/>'}
         />
         {/* Box that pop */}
         <div className="popBox absolute top-1/2 left-1/2 z-10 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary transition-all duration-500"></div>
