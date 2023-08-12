@@ -5,7 +5,7 @@ const linkTree = [
   },
   {
     name: 'Mi CV',
-    href: '/cv_jorge_marcos.pdf',
+    href: '/CV_Jorge_Marcos.pdf',
   },
   {
     name: 'Github',
